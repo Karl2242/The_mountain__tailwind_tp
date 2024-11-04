@@ -560,6 +560,22 @@ video {
   display: flex;
 }
 
+.w-80{
+  width: 20rem;
+}
+
+.w-\[100\%\]{
+  width: 100%;
+}
+
+.w-\[12rem\]{
+  width: 12rem;
+}
+
+.w-\[3rem\]{
+  width: 3rem;
+}
+
 .w-\[50\%\]{
   width: 50%;
 }
@@ -568,20 +584,40 @@ video {
   width: 60%;
 }
 
-.w-\[9rem\]{
-  width: 9rem;
-}
-
-.w-\[rem\]{
-  width: rem;
-}
-
-.w-\[7rem\]{
-  width: 7rem;
+.w-\[70\%\]{
+  width: 70%;
 }
 
 .w-\[8rem\]{
   width: 8rem;
+}
+
+.w-\[90\%\]{
+  width: 90%;
+}
+
+.w-\[93\%\]{
+  width: 93%;
+}
+
+.w-\[95\%\]{
+  width: 95%;
+}
+
+.w-\[9rem\]{
+  width: 9rem;
+}
+
+.w-\[\]{
+  width: ;
+}
+
+.w-\[6\]{
+  width: 6;
+}
+
+.w-\[60\]{
+  width: 60;
 }
 
 .flex-col{
@@ -596,12 +632,40 @@ video {
   justify-content: center;
 }
 
+.gap-2{
+  gap: 0.5rem;
+}
+
 .gap-5{
   gap: 1.25rem;
 }
 
+.gap-6{
+  gap: 1.5rem;
+}
+
+.gap-8{
+  gap: 2rem;
+}
+
+.gap-9{
+  gap: 2.25rem;
+}
+
 .gap-\[5rem\]{
   gap: 5rem;
+}
+
+.gap-3{
+  gap: 0.75rem;
+}
+
+.gap-4{
+  gap: 1rem;
+}
+
+.border{
+  border-width: 1px;
 }
 
 .bg-neutral-blue-chelou{
@@ -614,8 +678,63 @@ video {
   background-color: hsl(345 91 55 / var(--tw-bg-opacity));
 }
 
+.bg-neutral-grey{
+  --tw-bg-opacity: 1;
+  background-color: rgb(84 84 84 / var(--tw-bg-opacity));
+}
+
+.bg-\[\]{
+  background-color: ;
+}
+
+.bg-\[\#\]{
+  background-color: #;
+}
+
+.bg-\[\#D\]{
+  background-color: #D;
+}
+
+.bg-\[\#DD\]{
+  background-color: #DD;
+}
+
+.bg-\[\#DDD\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(221 221 221 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#DDDD\]{
+  background-color: #DDDD;
+}
+
+.bg-\[\#DDDDD\]{
+  background-color: #DDDDD;
+}
+
+.bg-\[\#DDDDDD\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(221 221 221 / var(--tw-bg-opacity));
+}
+
+.bg-opacity-\[0\.5\]{
+  --tw-bg-opacity: 0.5;
+}
+
 .bg-hero-img{
   background-image: url('../images/bg_header.jpg');
+}
+
+.bg-img-cam{
+  background-image: url('../images/bg_appareil_photo.jpg');
+}
+
+.bg-img-nuage{
+  background-image: url('../images/bg_nuage.jpg');
+}
+
+.p-3{
+  padding: 0.75rem;
 }
 
 .p-4{
@@ -626,8 +745,70 @@ video {
   padding: 1.75rem;
 }
 
-.pb-24{
-  padding-bottom: 6rem;
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.pb-14{
+  padding-bottom: 3.5rem;
+}
+
+.pb-28{
+  padding-bottom: 7rem;
+}
+
+.pb-9{
+  padding-bottom: 2.25rem;
+}
+
+.pb-\[4rem\]{
+  padding-bottom: 4rem;
+}
+
+.pb-\[5rem\]{
+  padding-bottom: 5rem;
+}
+
+.pt-10{
+  padding-top: 2.5rem;
+}
+
+.pt-16{
+  padding-top: 4rem;
+}
+
+.pt-\[2rem\]{
+  padding-top: 2rem;
+}
+
+.pt-6{
+  padding-top: 1.5rem;
+}
+
+.pt-\[\]{
+  padding-top: ;
+}
+
+.pt-\[6\]{
+  padding-top: 6;
+}
+
+.pt-\[4\]{
+  padding-top: 4;
+}
+
+.pt-\[4r\]{
+  padding-top: 4r;
+}
+
+.pt-\[4rem\]{
+  padding-top: 4rem;
 }
 
 .text-center{
@@ -647,14 +828,32 @@ video {
   line-height: 2rem;
 }
 
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .text-4xl{
   font-size: 2.25rem;
   line-height: 2.5rem;
 }
 
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .text-7xl{
   font-size: 4.5rem;
   line-height: 1;
+}
+
+.text-\[20px\]{
+  font-size: 20px;
+}
+
+.text-\[22px\]{
+  font-size: 22px;
 }
 
 .text-\[27px\]{
@@ -666,32 +865,45 @@ video {
   line-height: 1.75rem;
 }
 
-.text-\[20px\]{
-  font-size: 20px;
-}
-
 .text-\[2px\]{
   font-size: 2px;
 }
 
-.text-\[24px\]{
-  font-size: 24px;
+.text-\[1px\]{
+  font-size: 1px;
 }
 
-.text-\[22px\]{
-  font-size: 22px;
+.text-\[15px\]{
+  font-size: 15px;
+}
+
+.text-\[18px\]{
+  font-size: 18px;
 }
 
 .font-bold{
   font-weight: 700;
 }
 
+.font-extralight{
+  font-weight: 200;
+}
+
 .font-light{
   font-weight: 300;
 }
 
+.font-semibold{
+  font-weight: 600;
+}
+
 .leading-\[3rem\]{
   line-height: 3rem;
+}
+
+.text-neutral-grey{
+  --tw-text-opacity: 1;
+  color: rgb(84 84 84 / var(--tw-text-opacity));
 }
 
 .text-neutral-off-white{
@@ -703,10 +915,6 @@ video {
   color: ;
 }
 
-.text-\[2\]{
-  color: 2;
-}
-
 .text-\[20\]{
   color: 20;
 }
@@ -715,10 +923,22 @@ video {
   color: 20p;
 }
 
-.text-\[22\]{
-  color: 22;
+.text-\[px\]{
+  color: px;
 }
 
-.text-\[22p\]{
-  color: 22p;
+.text-\[1\]{
+  color: 1;
+}
+
+.text-\[18\]{
+  color: 18;
+}
+
+.text-\[18p\]{
+  color: 18p;
+}
+
+.opacity-\[0\.5\]{
+  opacity: 0.5;
 }
