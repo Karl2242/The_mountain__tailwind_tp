@@ -9,6 +9,7 @@ module.exports = {
           'blue-chelou': "hsl(180, 57, 49)",
           'red-button' : "hsl(345, 91, 55)",
           'grey': "#545454",
+          'ebony-clay' : "hsl(203, 24, 19)",
       },
       },
       fontFamily: {
@@ -19,6 +20,7 @@ module.exports = {
         'hero-img': "url('../images/bg_header.jpg')",
         'img-nuage': "url('../images/bg_nuage.jpg')",
         'img-cam' : "url('../images/bg_appareil_photo.jpg')",
+        'newleytaer' : "url('../images/bg_newsletter.jpg')",
       },
     },
   },
