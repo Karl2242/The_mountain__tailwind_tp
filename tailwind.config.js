@@ -12,6 +12,9 @@ module.exports = {
           'ebony-clay' : "hsl(203, 24, 19)",
       },
       },
+      Grid:{
+        'span-16': 'span 16 / span 16',
+      },
       fontFamily: {
         Roboto: ["Roboto", "sans-serif"],
         Rokkitt: ["Rokkitt", "sans-serif"],
